@@ -1,0 +1,152 @@
+.mainBody {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainBody img {
+  width: 120px;
+  height: 40px;
+}
+
+.bioData {
+  display: flex;
+  flex-direction: column;
+  flex: 60%;
+  /* border-bottom: 1px solid gray; */
+  text-align: center;
+}
+
+.lineCol {
+  border-right: 1px solid lightslategray;
+  border-left: 1px solid lightslategray;
+}
+
+.biodetail {
+  text-align: justify;
+  font-size: 14px;
+  color: white;
+}
+
+.editBut {
+  display: flex;
+  justify-content: right;
+}
+.editBut button {
+  background: none;
+  border: none;
+}
+
+.editBut button img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  max-width: 14px;
+  max-height: 14px;
+}
+
+.profileFull {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.profilePict {
+  border-radius: 50%;
+}
+
+.profilePict img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid violet;
+}
+
+.profileFull p {
+  font-size: 14px;
+  color: lightslategray;
+}
+
+.navButton {
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.navButton button {
+  background: none;
+  border: none;
+  margin: 2px 0px;
+  color: white;
+}
+
+.navButton button img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  max-width: 24px;
+  max-height: 24px;
+  margin-right: 20px;
+}
+
+.logout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.logout button {
+  color: white;
+  background: none;
+  border: none;
+  margin: 2px 0px;
+}
+
+.logout button img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  max-width: 24px;
+  max-height: 24px;
+  margin-right: 20px;
+}
+
+.followMessage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttonMessage {
+  background: linear-gradient(
+    52deg,
+    rgba(58, 104, 180, 1) 0%,
+    rgba(18, 195, 94, 1) 50%,
+    rgba(69, 139, 255, 1) 100%
+  );
+  border: none;
+  margin-right: 5px;
+}
+
+.buttonFollow {
+  background: linear-gradient(
+    52deg,
+    rgba(253, 78, 35, 1) 0%,
+    rgba(80, 18, 195, 1) 50%,
+    rgba(255, 69, 248, 1) 100%
+  );
+  border: none;
+  margin-left: 5px;
+}
+
+.buttonUnFollow {
+  background-color: rgb(49, 49, 49);
+  border: none;
+  margin-left: 5px;
+}

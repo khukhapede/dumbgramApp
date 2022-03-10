@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.mainBody {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  justify-content: center;
+}
+
+.firstColumn {
+  display: flex;
+  align-content: center;
+  justify-items: start;
+  flex-direction: column;
+  color: white;
+  flex: 50%;
+  padding-left: 6.5%;
+  padding-right: 2%;
+}
+
+.buttonLogin {
+  background: linear-gradient(
+    52deg,
+    rgba(253, 78, 35, 1) 0%,
+    rgba(80, 18, 195, 1) 50%,
+    rgba(255, 69, 248, 1) 100%
+  );
+  border: none;
+}
+
+.firstColumn img {
+  width: 70%;
+}
+
+.firstColumn h1 {
+  font-size: 56px;
+}
+
+.firstColumn p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6a6a6a;
+}
+
+.secondColumn {
+  text-align: center;
+  flex: 50%;
+}
+
+.photoGrid {
+  height: 70%;
+  margin-right: 30px;
+}
+
+.photoGrid img{
+  overflow: hidden;
+  max-height: fit-content;
+}
+
+.masonPict {
+  width: 150px;
+  max-height: 70px;
+  margin: 30px;
+}

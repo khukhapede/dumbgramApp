@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.mainBody {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  /* width: 50vw; */
+  color: white;
+  justify-content: center;
+}
+
+.imageColumn {
+  flex: 70%;
+  /* background-color: tomato; */
+  border-right: 1px solid gray;
+  /* height: 100vh; */
+}
+
+.imageColumn img {
+  max-width: 100%;
+}
+
+.commentColumn {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.postCaption {
+  flex: 20%;
+  border-bottom: 1px solid gray;
+}
+
+.postComments {
+  flex: 65%;
+  margin-top: 10px;
+}
+
+.postCaption {
+  display: flex;
+}
+
+.postCaption img {
+  max-width: 25px;
+  max-height: 25px;
+  border-radius: 50%;
+  border-color: blue;
+  margin-left: 5px;
+  margin-top: 5px;
+  object-fit: cover;
+}
+
+.commentText {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.commCard {
+  display: flex;
+}
+
+.commList {
+  display: flex;
+  margin: 10px 0;
+}
+
+.commList img {
+  max-width: 25px;
+  max-height: 25px;
+  border-radius: 50%;
+  border-color: blue;
+  margin-left: 5px;
+  margin-top: 5px;
+  flex: 20%;
+  object-fit: cover;
+}
+
+.commentInput {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.commentInput p {
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.commentButtons {
+  display: flex;
+  justify-content: right;
+}
+
+.commentButtons button {
+  background: none;
+  size: 14px;
+  border: none;
+  color: white;
+  font-size: 12px;
+}
+
+.commentButtons button img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  max-width: 14px;
+  max-height: 14px;
+}
+
+.commentBox {
+  /* background: #5C5C5C; */
+  margin-top: 5px;
+  color: white;
+  border: none;
+}
+
+.modalContent {
+  background-color: black;
+  color: white;
+  padding: 0px;
+}
+
+.modalDialog {
+  width: 70vw !important;
+  max-width: none !important;
+}
+
+.closeButton {
+  background: none;
+  font-size: 12px;
+  border: none;
+  padding: 0px;
+  color: white;
+  text-align: right;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.mainBody {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  justify-content: center;
+}
+
+.profileColumn {
+  flex: 30%;
+  border-right: 1px solid gray;
+  height: 100vh;
+}
+
+.inputField {
+  flex: 70%;
+}
+
+.buttonGradient {
+  background: linear-gradient(
+    52deg,
+    rgba(253, 78, 35, 1) 0%,
+    rgba(80, 18, 195, 1) 50%,
+    rgba(255, 69, 248, 1) 100%
+  );
+  border: none;
+}

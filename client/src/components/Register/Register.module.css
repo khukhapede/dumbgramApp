@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.modal {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.modalContent {
+  background-color: black;
+  color: white;
+}
+
+.modalDialog {
+  width: 30vw !important;
+  max-width: none !important;
+}
+
+.switch {
+  background: none;
+  border: none;
+  color: slategray;
+}
+
+.buttonLogin {
+  background: linear-gradient(
+    52deg,
+    rgba(253, 78, 35, 1) 0%,
+    rgba(80, 18, 195, 1) 50%,
+    rgba(255, 69, 248, 1) 100%
+  );
+  border: none;
+}
