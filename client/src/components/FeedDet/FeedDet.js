@@ -75,7 +75,7 @@ export default function FeedDet(props) {
   };
   console.log(form.feedId);
 
-  const kirimComment = useMutation(async (e) => {
+  const sendComment = useMutation(async (e) => {
     try {
       e.preventDefault();
 
@@ -157,7 +157,7 @@ export default function FeedDet(props) {
   }
 
   function commentNav() {
-    navigate("/people/" + feedData.commentId.coomentator.id);
+    navigate("/people/" + feedData.commentId.commentator.id);
   }
 
   return (
@@ -248,7 +248,7 @@ export default function FeedDet(props) {
                           </div>
                           <p>{`${feedLikes} likes`}</p>
                           <div>
-                            <Form onSubmit={(e) => kirimComment.mutate(e)}>
+                            <Form onSubmit={(e) =>sendComment.mutate(e)}>
                               <Form.Group>
                                 <Form.Control
                                   type="text"
